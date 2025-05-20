@@ -37,7 +37,7 @@ while True: #dentro do loop vai perguntar oq o usuário quer fazer e chamar as d
         break
     elif ComandoInicial.startswith('L'):
         for lista in listaTarefas:
-            print(lista)
+            print(f'Título: {lista[0]} | Descrição: {lista[1]} | Status: {lista[2]} | Data: {lista[3]}')
     elif ComandoInicial.startswith('A'):
         titulo = input('Digite o título do item que será adicionado:\n')
         
