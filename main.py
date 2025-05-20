@@ -1,5 +1,5 @@
 import os
-#caso a lista ainda não exista, ou seja, o arquivo json esteja vazio, cria a lista 
+
 listaTarefas = []
 
 class Tarefa:
